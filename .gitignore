@@ -1,0 +1,12 @@
+# Python virtual environment
+venv/
+
+# Dataset folder
+data/
+
+# Model file (already in Git LFS)
+model/*.h5
+
+# Streamlit & Python cache
+__pycache__/
+*.pyc
