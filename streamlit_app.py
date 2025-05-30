@@ -3,6 +3,14 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
+
+st.set_page_config(
+    page_title="Cat vs Dog Classifier 🐱🐶",
+    page_icon="🐾",
+    layout="centered",  # You can also use "wide"
+    initial_sidebar_state="auto"
+)
+
 # Load model
 model = tf.keras.models.load_model("model.h5")
 class_names = ['Cat', 'Dog']
